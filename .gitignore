@@ -4,3 +4,5 @@ node_modules/
 *.zip
 *.pgbackup
 *ablb_salesforce*.json
+dumps/
+!.gitkeep
