@@ -42,11 +42,11 @@ function main(confObj) {
     })
 }
 
-main().then(test => {
-
-}).catch(ex => {
-    console.log(ex);
-});
+// main().then(test => {
+//
+// }).catch(ex => {
+//     console.log(ex);
+// });
 
 module.exports = {
     backup: main
