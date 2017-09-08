@@ -18,8 +18,9 @@ You will now be able to import this module and use it in your project.
 You will need to install the following native command line tools
 for the backup scripts to work:
 
-- PostgreSQL
-
+- PostgreSQL 9.6, with this specific executable: `/usr/lib/postgresql/9.6/bin/pg_dump`
+- MongoDB tools, with mongoDump version 3.4.7
+- Zip (linux command line zip tool)
 
 
 ### Usage
