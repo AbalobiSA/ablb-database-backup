@@ -1,0 +1,24 @@
+{
+  "name": "ablb-database-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ablb-salesforce": "git+https://git@github.com/AbalobiSA/ablb-salesforce.git",
+    "moment": "^2.18.1",
+    "momentjs": "^2.0.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.10",
+    "pg": "^7.3.0",
+    "rekuire": "^0.1.9",
+    "rimraf": "^2.6.1",
+    "sanitize-filename": "^1.6.1",
+    "sys": "^0.0.1"
+  }
+}
