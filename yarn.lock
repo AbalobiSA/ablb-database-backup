@@ -3,8 +3,8 @@
 
 
 "ablb-salesforce@git+https://git@github.com/AbalobiSA/ablb-salesforce.git":
-  version "1.3.0"
-  resolved "git+https://git@github.com/AbalobiSA/ablb-salesforce.git#b8fadd6ddf2b657586c75d0a00856ebf839386ae"
+  version "1.3.2"
+  resolved "git+https://git@github.com/AbalobiSA/ablb-salesforce.git#c97d132a5bbe62a0bffc63271f6bab763191921b"
   dependencies:
     jsforce "^1.8.0"
     limiter "^1.1.2"

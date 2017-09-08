@@ -11,7 +11,6 @@ function main(config, globalSecrets) {
     paths = config;
     let conn;
 
-
     let tables = [
         {"name" : "Ablb_Bait_Types__c"},
         {"name" : "Ablb_Boat__c"},
@@ -20,12 +19,11 @@ function main(config, globalSecrets) {
         {"name" : "Ablb_Co_op_membership__c"},
         {"name" : "Ablb_Community__c"},
         {"name" : "Ablb_Fisher_Catch__c"},
-        {"name" : "Ablb_Fisher_Trip__Feed"},
         {"name" : "Ablb_Fisher_Trip__c"},
-        {"name" : "Ablb_Global_Var__c"},
-        {"name" : "Ablb_Gps_Track__c"},
-        {"name" : "Ablb_Group__c"},
-        {"name" : "Ablb_Group_membership__c"},
+        // {"name" : "Ablb_Global_Var__c"},
+        // {"name" : "Ablb_Gps_Track__c"},
+        // {"name" : "Ablb_Group__c"},
+        // {"name" : "Ablb_Group_membership__c"},
         {"name" : "Ablb_Landing_Site__c"},
         {"name" : "Ablb_Monitor_Catch__c"},
         {"name" : "Ablb_Monitor_Day__c"},
