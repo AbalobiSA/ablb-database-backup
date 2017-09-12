@@ -16,7 +16,7 @@ let mongo_backup = require('./backup_mongo.js');
 let pg_backup = require('./backup_pg');
 let sf_backup = require('./backup_salesforce');
 
-function main(confObj) {
+function main(confObj, conn) {
 
     let testConfig = {
         PATH_DATA_DUMPS : "./dumps",
@@ -33,7 +33,7 @@ function main(confObj) {
     return Promise.all([
         mongo_backup.backup(config, secrets),
         pg_backup.backup(config, secrets),
-        sf_backup.backup(config, secrets)
+        sf_backup.backup(config, secrets, conn)
     ]).then(successArr => {
         console.log("All backups completed successfully!");
         return Promise.resolve("All files have been backed up!")
