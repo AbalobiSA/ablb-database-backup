@@ -35,7 +35,8 @@ function main(config, globalSecrets, conn) {
         {"name": "Ablb_Share_Rule__c"},
         {"name": "Ablb_Species__c"},
         {"name": "Ablb_User_Type__c"},
-        {"name": "Ablb_User__c"}
+        {"name": "Ablb_User__c"},
+        {"name": "Ablb_H2C_Info__c"}
     ];
 
     // return salesforce.createConnection()
