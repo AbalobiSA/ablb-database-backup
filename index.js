@@ -16,7 +16,7 @@ let mongo_backup = require('./backup_mongo.js');
 let pg_backup = require('./backup_pg');
 let sf_backup = require('./backup_salesforce');
 
-function main(confObj, conn) {
+function main(confObj) {
 
     let testConfig = {
         PATH_DATA_DUMPS : "./dumps",
