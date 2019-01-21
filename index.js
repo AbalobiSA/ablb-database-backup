@@ -33,7 +33,8 @@ function main(confObj, conn) {
     return Promise.all([
         mongo_backup.backup(config, secrets),
         pg_backup.backup(config, secrets),
-        sf_backup.backup(config, secrets, conn)
+        // Sailsforce is no longer being used, and does not need to be updated
+        // sf_backup.backup(config, secrets, conn)
     ]).then(successArr => {
         console.log("All backups completed successfully!");
         return Promise.resolve("All files have been backed up!")
