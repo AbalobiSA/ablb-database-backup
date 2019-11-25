@@ -1,3 +1,6 @@
+# DEPRECATED - DO NOT USE - THIS REPO HAS BEEN MOVED TO BITBUCKET
+See https://bitbucket.org/abalobi
+
 # Abalobi Database Backup
 
 Node module used for backing up abalobi databases.
