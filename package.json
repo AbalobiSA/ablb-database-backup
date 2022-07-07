@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "ablb-salesforce": "git+https://git@github.com/AbalobiSA/ablb-salesforce.git",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "momentjs": "^2.0.0",
     "mongo": "^0.1.0",
     "mongodb": "^2.2.31",
