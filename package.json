@@ -14,7 +14,7 @@
     "momentjs": "^2.0.0",
     "mongo": "^0.1.0",
     "mongodb": "^2.2.31",
-    "mongoose": "^4.11.10",
+    "mongoose": "^4.13.21",
     "pg": "^7.3.0",
     "rekuire": "^0.1.9",
     "rimraf": "^2.6.1",
